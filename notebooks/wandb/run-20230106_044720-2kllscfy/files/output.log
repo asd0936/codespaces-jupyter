@@ -1,0 +1,124 @@
+
+Training...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 11 of 10: 100%|██████████████████████| 5000/5000 [00:32<00:00, 155.98it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 12 of 10: 100%|██████████████████████| 5000/5000 [00:33<00:00, 150.09it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 13 of 10:  96%|█████████████████████▏| 4806/5000 [00:31<00:01, 122.88it/s]
+Accuracy for class: plane is 66.9 %
+Accuracy for class: car   is 82.8 %
+Accuracy for class: bird  is 38.0 %
+Accuracy for class: cat   is 46.1 %
+Accuracy for class: deer  is 53.4 %
+Accuracy for class: dog   is 66.4 %
+Accuracy for class: frog  is 76.0 %
+Accuracy for class: horse is 67.8 %
+Accuracy for class: ship  is 71.5 %
+Epoch 13 of 10: 100%|██████████████████████| 5000/5000 [00:32<00:00, 152.06it/s]
+
+
+
+
+
+
+Epoch 14 of 10: 100%|██████████████████████| 5000/5000 [00:33<00:00, 151.36it/s]
+
+
+
+
+
+
+Epoch 15 of 10:  94%|████████████████████▊ | 4722/5000 [00:30<00:01, 163.90it/s]
+Accuracy for class: plane is 71.8 %
+Accuracy for class: car   is 67.1 %
+Accuracy for class: bird  is 47.5 %
+Accuracy for class: cat   is 57.2 %
+Accuracy for class: deer  is 57.6 %
+Accuracy for class: dog   is 40.9 %
+Accuracy for class: frog  is 76.7 %
+Accuracy for class: horse is 66.1 %
+Accuracy for class: ship  is 76.6 %
+Accuracy for class: truck is 75.3 %
+
