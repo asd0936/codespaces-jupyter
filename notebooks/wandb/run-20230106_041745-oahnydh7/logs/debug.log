@@ -1,0 +1,83 @@
+2023-01-06 04:17:45,158 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Configure stats pid to 9781
+2023-01-06 04:17:45,158 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Loading settings from /home/codespace/.config/wandb/settings
+2023-01-06 04:17:45,158 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Loading settings from /workspaces/codespaces-jupyter/notebooks/wandb/settings
+2023-01-06 04:17:45,158 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-06 04:17:45,158 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-06 04:17:45,159 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-01-06 04:17:45,159 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-01-06 04:17:45,159 INFO    MainThread:9781 [wandb_init.py:_log_setup():476] Logging user logs to /workspaces/codespaces-jupyter/notebooks/wandb/run-20230106_041745-oahnydh7/logs/debug.log
+2023-01-06 04:17:45,159 INFO    MainThread:9781 [wandb_init.py:_log_setup():477] Logging internal logs to /workspaces/codespaces-jupyter/notebooks/wandb/run-20230106_041745-oahnydh7/logs/debug-internal.log
+2023-01-06 04:17:45,159 INFO    MainThread:9781 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7feebe3bfca0>
+2023-01-06 04:17:45,160 INFO    MainThread:9781 [wandb_init.py:init():516] calling init triggers
+2023-01-06 04:17:45,160 INFO    MainThread:9781 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'use_amp': False, 'epochs': 10, 'batch_size': 10, 'lr': 0.001, 'momentum': 0.9, 'dataset': 'CIFAR10', 'architecture': 'CNN'}
+2023-01-06 04:17:45,160 INFO    MainThread:9781 [wandb_init.py:init():569] starting backend
+2023-01-06 04:17:45,160 INFO    MainThread:9781 [wandb_init.py:init():573] setting up manager
+2023-01-06 04:17:45,163 INFO    MainThread:9781 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-06 04:17:45,168 INFO    MainThread:9781 [wandb_init.py:init():580] backend started and connected
+2023-01-06 04:17:45,248 INFO    MainThread:9781 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-01-06 04:17:45,248 INFO    MainThread:9781 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-06 04:17:45,248 INFO    MainThread:9781 [wandb_init.py:init():658] updated telemetry
+2023-01-06 04:17:45,263 INFO    MainThread:9781 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-06 04:17:47,067 INFO    MainThread:9781 [wandb_run.py:_on_init():2006] communicating current version
+2023-01-06 04:17:47,120 INFO    MainThread:9781 [wandb_run.py:_on_init():2010] got version response 
+2023-01-06 04:17:47,120 INFO    MainThread:9781 [wandb_init.py:init():728] starting run threads in backend
+2023-01-06 04:17:47,194 INFO    MainThread:9781 [wandb_run.py:_console_start():1986] atexit reg
+2023-01-06 04:17:47,194 INFO    MainThread:9781 [wandb_run.py:_redirect():1844] redirect: SettingsConsole.WRAP_RAW
+2023-01-06 04:17:47,195 INFO    MainThread:9781 [wandb_run.py:_redirect():1909] Wrapping output streams.
+2023-01-06 04:17:47,195 INFO    MainThread:9781 [wandb_run.py:_redirect():1931] Redirects installed.
+2023-01-06 04:17:47,195 INFO    MainThread:9781 [wandb_init.py:init():765] run started, returning control to user process
+2023-01-06 04:17:47,199 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:17:47,199 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:18:14,487 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:18:25,788 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:18:25,788 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:18:54,688 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:18:54,704 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:18:54,704 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:19:08,970 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:19:08,976 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:19:08,976 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:19:17,970 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:19:17,973 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:19:17,973 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:19:47,916 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:19:47,919 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:19:47,919 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:19:52,663 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:19:52,666 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:19:52,670 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:19:59,429 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:19:59,435 INFO    MainThread:9781 [wandb_watch.py:watch():51] Watching
+2023-01-06 04:23:29,127 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:23:29,127 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:23:31,019 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:23:33,522 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:23:33,523 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:23:34,649 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:23:34,653 INFO    MainThread:9781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-06 04:23:34,654 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:23:35,816 INFO    MainThread:9781 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-06 04:23:35,839 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Configure stats pid to 9781
+2023-01-06 04:23:35,840 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Loading settings from /home/codespace/.config/wandb/settings
+2023-01-06 04:23:35,840 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Loading settings from /workspaces/codespaces-jupyter/notebooks/wandb/settings
+2023-01-06 04:23:35,840 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-06 04:23:35,840 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-06 04:23:35,840 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-01-06 04:23:35,840 INFO    MainThread:9781 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-01-06 04:23:35,840 INFO    MainThread:9781 [wandb_init.py:_log_setup():476] Logging user logs to /workspaces/codespaces-jupyter/notebooks/wandb/run-20230106_042335-3617qiyt/logs/debug.log
+2023-01-06 04:23:35,840 INFO    MainThread:9781 [wandb_init.py:_log_setup():477] Logging internal logs to /workspaces/codespaces-jupyter/notebooks/wandb/run-20230106_042335-3617qiyt/logs/debug-internal.log
+2023-01-06 04:23:35,841 INFO    MainThread:9781 [wandb_init.py:init():516] calling init triggers
+2023-01-06 04:23:35,841 INFO    MainThread:9781 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'use_amp': False, 'epochs': 10, 'batch_size': 10, 'lr': 0.001, 'momentum': 0.9, 'dataset': 'CIFAR10', 'architecture': 'CNN'}
+2023-01-06 04:23:35,841 INFO    MainThread:9781 [wandb_init.py:init():535] re-initializing run, found existing run on stack: oahnydh7
+2023-01-06 04:23:35,843 INFO    MainThread:9781 [wandb_run.py:_finish():1753] finishing run ecust-bestcv/image-classifier/oahnydh7
+2023-01-06 04:23:35,843 INFO    MainThread:9781 [jupyter.py:save_history():448] not saving jupyter history
+2023-01-06 04:23:35,843 INFO    MainThread:9781 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-06 04:23:35,844 INFO    MainThread:9781 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-01-06 04:23:35,844 INFO    MainThread:9781 [wandb_run.py:_atexit_cleanup():1955] got exitcode: 0
+2023-01-06 04:23:35,844 INFO    MainThread:9781 [wandb_run.py:_restore():1938] restore
+2023-01-06 04:23:35,844 INFO    MainThread:9781 [wandb_run.py:_restore():1944] restore done
+2023-01-06 04:23:42,864 INFO    MainThread:9781 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2023-01-06 04:23:42,865 INFO    MainThread:9781 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2023-01-06 04:23:42,872 INFO    MainThread:9781 [wandb_run.py:_footer_sync_info():3364] logging synced files

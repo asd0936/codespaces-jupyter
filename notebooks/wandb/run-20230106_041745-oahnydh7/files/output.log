@@ -1,0 +1,133 @@
+Downloading training data...
+Files already downloaded and verified
+Downloading testing data...
+Files already downloaded and verified
+Your network is ready for training!
+cpu
+Training...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1 of 10: 100%|███████████████████████| 5000/5000 [00:32<00:00, 154.35it/s]
+Accuracy for class: plane is 41.7 %
+Accuracy for class: car   is 43.8 %
+Accuracy for class: bird  is 21.4 %
+Accuracy for class: cat   is 19.2 %
+Accuracy for class: deer  is 16.9 %
+Accuracy for class: dog   is 24.8 %
+Accuracy for class: frog  is 62.6 %
+Accuracy for class: horse is 73.6 %
+Accuracy for class: ship  is 36.5 %
+Accuracy for class: truck is 67.2 %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2 of 10: 100%|███████████████████████| 5000/5000 [00:32<00:00, 152.97it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3 of 10: 100%|███████████████████████| 5000/5000 [00:32<00:00, 152.56it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 4 of 10: 100%|███████████████████████| 5000/5000 [00:33<00:00, 150.81it/s]
+Epoch 5 of 10:   1%|▏                        | 32/5000 [00:00<00:47, 104.06it/s]
+Accuracy for class: plane is 64.3 %
+Accuracy for class: car   is 73.4 %
+Accuracy for class: bird  is 26.9 %
+Accuracy for class: cat   is 24.9 %
+Accuracy for class: deer  is 54.3 %
+Accuracy for class: dog   is 64.4 %
+Accuracy for class: frog  is 66.2 %
+Accuracy for class: horse is 63.1 %
+Accuracy for class: ship  is 68.3 %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 5 of 10: 100%|███████████████████████| 5000/5000 [00:32<00:00, 155.33it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 6 of 10: 100%|███████████████████████| 5000/5000 [00:32<00:00, 152.19it/s]
+
+
+
+Epoch 7 of 10:  21%|████▊                  | 1044/5000 [00:06<00:25, 155.91it/s]
+Note: you may need to restart the kernel to use updated packages.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
